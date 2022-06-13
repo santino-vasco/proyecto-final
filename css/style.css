@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* css */
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+ /* imagenes */
+.imagen{
+    width: 25px;
+}
+.img{
+    width: 400px;
+    background-color: aqua;
+    border: solid 5px black; 
+}
+/* flex */
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+.flex li{
+    display: flex;
+    padding: 2px;
+    flex-direction: row;
+    justify-content: flex-end 
+}
+.flex ul {
+    display: flex;
+
+}
+.fondo {
+    background: aliceblue;
+}
+/* main */
+.main-contacto div {
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-contacto div input{
+    margin: 10px;
+}
+.main-contacto h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    font-size: 35px;
+}
+/* grilla */
+.grilla {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "header header"
+      "section section"
+      "div div"
+      "footer footer"; 
+  }
+  .header { grid-area: header; }
+  .section { grid-area: selection; }
+  .div { grid-area: div; }
+  .footer { grid-area: footer; }
+
+   /*Header*/
+.header{
+    display: grid;
+    grid-area:header;
+    background-color: aliceblue;
+    color: black;
+    min-height: 15px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(10,221,246,1) 0%, #9ff609 48%, #00e4ff 100%);
+
+}
+.header h1{
+    text-align:start;
+
+}
+.header nav{
+      display: grid;
+      justify-content: center
+}
+.header il{
+    font-size:1000px ;
+}
+/* selection */
+ .section{
+     display: block;
+     border: solid  5px black;
+     background-color: #9ff609;
+     padding: 10px;
+ }
+ .section h2{
+     display: grid;
+     justify-content: space-around;
+ }
+ .section-informacion{
+    margin-top: 50px;
+ }
+ /* div */
+ .div{
+     display: grid;
+     justify-items: center;
+ }
+
+ /* footer */
+ 
+ .footer {
+     display: grid;
+    bottom: 0;
+    right: 0;
+    background-color: #00e4ff ;
+    border: solid 5px black;
+}
+.footer-contacto{
+    margin-top: 500px;
+}
+.footer-mis-trabajos{
+    margin-top: 600px;
+}
+.footer-estudio{
+    margin-top: 400px;
+}
+
+.footer-informacion{
+    margin-top: 81px;
+}
+
+
