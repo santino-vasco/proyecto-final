@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="vilase 2ewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://w7.pngwing.com/pngs/106/153/png-transparent-v-letter-green-letters-v-angle-png-graphics-hand.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title class="header">Santino Vasco</title>
 </head>
@@ -12,15 +12,28 @@
     <div class="grilla">
         <header class="header">
             <h1>VASCO</h1>
-            <nav>
-                <ul class="flex">
-                    <li class=""><a href="./index.html">INICIO</a></li>
-                    <li class=""><a href="./informacion.html">INFORMACION</a></li>
-                    <li class=""><a href="./estudio.html">ESTUDIO</a></li>
-                    <li class=""><a href="./mis-trabajos.html">MIS-TRABAJOS</a></li>
-                    <li class=""><a href="./contacto.html">CONTACTO</a></li>
-                </ul>   
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">menu</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./index.html">INICIO</a></li>
+                            <li><a class="dropdown-item" href="./informacion.html">INFORMACION</a></li>
+                            <li><a class="dropdown-item" href="./estudio.html">ESTUDIO</a></li>
+                            <li><a class="dropdown-item" href="./mis-trabajos.html">MIS TRABAJOS</a></li>
+                            <li><a class="dropdown-item" href="./contacto.html">CONTACTO</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+              </nav>
         </header>
         <main>
             <section class="section">
@@ -58,7 +71,7 @@
             <!-- aca iri mis paginas ya echas  -->
             <p> estos son mis trabajos ya echos </p>
         </main>
-        <footer class="footer">
+        <footer class="footer block ">
             <form action="#" method="get" id="form">
                 <h3>contactame  </h3>
                 <input type="text" placeholder="nombre y apellido">
@@ -91,5 +104,6 @@
           </form>
      </footer>  
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
