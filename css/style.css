@@ -3,12 +3,13 @@
     padding: 0;
 }
 /* css */
-
 body{
     margin: 0;
     font-family: sans-serif;
     position: relative;
-    min-height: 100vh;
+}
+h1:hover {
+    transform: rotate(100px) ;
 }
 .block{
     display: block;
@@ -23,19 +24,19 @@ body{
 .img{
     width: 400px;
     background-color: aqua;
-    border: solid 5px black; 
+    border: solid 5px black;
 }
 /* flex */
 .flex {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end
+    justify-content: center;
 }
 .flex li{
     display: flex;
     padding: 2px;
     flex-direction: row;
-    justify-content: flex-end 
+    justify-content: flex-end
 }
 .flex ul {
     display: flex;
@@ -45,8 +46,8 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.fondo {
-    background: aliceblue;
+.fondo{
+    background-color: azure;
 }
 /* main */
 .main-contacto div {
@@ -70,14 +71,14 @@ body{
 }
 /* grilla */
 .grilla {
-    display: grid; 
-    grid-template-columns: 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
       "header header"
       "section section"
       "div div"
-      "footer footer"; 
+      "footer footer";
   }
   .header { grid-area: header; }
   .section { grid-area: selection; }
@@ -87,13 +88,11 @@ body{
    /*Header*/
 .header{
     display: grid;
-    grid-area:header;
-    background-color: aliceblue;
     color: black;
     min-height: 15px;
     text-align: center;
-    background: linear-gradient(90deg, rgba(10,221,246,1) 0%, #9ff609 48%, #00e4ff 100%);
-
+    background: rgb(0,0,255);
+background: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(181,101,255,1) 23%,  rgba(181,101,255,1) 77%, rgba(0,0,255,1) 100%);
 }
 .header h1{
     text-align:start;
@@ -110,7 +109,7 @@ body{
  .section{
      display: block;
      border: solid  5px black;
-     background-color: #9ff609;
+     background-color: #b565ff;
      padding: 10px;
  }
  .section h2{
@@ -127,11 +126,11 @@ body{
  }
 
  /* footer */
- 
+
  .footer {
      display: grid;
-    background-color: #00e4ff ;
-    border: solid 5px black;
+     color: #fff;
+    background-color: #111 ;
     width: 100%;
 }
 .footer-index{
@@ -151,6 +150,21 @@ body{
 .footer-informacion{
     margin-top: 81px;
 }
-
-
+        /* table */
+@media screen and (min-width: 780px ) and (max-width: 1024px ){
+        .fondo{
+            background-color: aliceblue;
+        }
+        
+}
+@media screen and ( min-width: 480px  ) and (max-width: 780px  ){
+    .fondo{
+        background-color: #b565ff;
+    }
+}
+@media screen and (max-width: 480px ) {
+    .fondo{
+        background-color: brown;
+    }
+}
 
