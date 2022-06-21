@@ -151,20 +151,38 @@ background: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(181,101,255,1) 23%, 
     margin-top: 81px;
 }
         /* table */
-@media screen and (min-width: 780px ) and (max-width: 1024px ){
+@media screen and (max-width: 1024px ){
         .fondo{
             background-color: aliceblue;
         }
         
 }
-@media screen and ( min-width: 480px  ) and (max-width: 780px  ){
+@media screen and (max-width: 780px  ){
     .fondo{
-        background-color: #b565ff;
+        background-color: darkcyan;
     }
+    .section{
+        background-color:aqua ;
+        border: solid 10px aquamarine;
+        padding: 15px ;
+    }
+    .parrafo{
+        width: 100%;
+    }
+
 }
 @media screen and (max-width: 480px ) {
     .fondo{
-        background-color: brown;
+        background-color:  cyan;
+    }
+    .section{
+        background-color: blue;
+        border: solid 10px blueviolet;
+        padding: 20px ;
+    }
+    .parrafo{
+        width:100%;
+        
     }
 }
 
