@@ -1,0 +1,140 @@
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex li{
+    display: flex;
+    padding: 2px;
+    flex-direction: row;
+    justify-content: flex-end
+}
+.flex ul {
+    display: flex;
+
+}
+.flex section{
+    flex-direction: column;
+    align-items: center;
+}
+.fondo{
+    background-color: aqua;
+}
+.grilla {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "header header"
+      "section section"
+      "div div"
+      "footer footer";
+  }
+  .header { grid-area: header; }
+  .section { grid-area: selection; }
+  .div { grid-area: div; }
+  .footer { grid-area: footer; }
+header{
+    .header{
+        display: grid;
+        color: black;
+        min-height: 15px;
+        text-align: center;
+        background: rgb(0,0,255);
+    background: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(181,101,255,1) 23%,  rgba(181,101,255,1) 77%, rgba(0,0,255,1) 100%);
+    }
+    .header h1:hover{
+        text-align:start;
+        transform: rotate(100px) ;
+    
+    }
+    .header nav{
+          display: grid;
+          justify-content: center
+    }
+
+}
+
+main{
+    .section{
+        display: block;
+        background-color: #b565ff ;
+        border: solid 10px black;
+     padding: 10px;
+    }
+    .section h2{
+        display: grid;
+        justify-content: space-around;
+    }
+    .div{
+        display: grid;
+        justify-items: center;
+    }
+
+}
+.imagen{
+    width: 25px;
+}
+.img{
+    width: 400px;
+    background-color: aqua;
+    border: solid 5px black;
+}
+    .footer {
+        display: grid;
+        color: #fff;
+       background-color: #111 ;
+       width: 100%;
+   }
+   .footer-index{
+       margin-top: 100px;
+   } 
+   @media screen and (max-width: 1024px ){
+    .fondo{
+        background-color: #b565ff;
+    }
+    .section{
+        padding: 15px ;
+    }
+    
+}
+@media screen and (max-width: 780px  ){
+.fondo{
+    background-color: darkcyan;
+}
+.section{
+    background-color:aqua ;
+    border: solid 10px aquamarine;
+    padding: 15px ;
+}
+.parrafo{
+    width: 100%;
+}
+
+}
+@media screen and (max-width: 480px ) {
+
+.header{
+    display: grid;
+    justify-content: end;
+}
+
+.fondo{
+    background-color:  #00ffff;
+}
+.section{
+    background-color: #0000ff;
+    border: solid 10px darkblue;
+    padding: 20px ;
+}
+.parrafo{
+    width:100%;
+    
+}
+}

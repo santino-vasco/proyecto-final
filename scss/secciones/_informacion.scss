@@ -1,0 +1,51 @@
+
+header{
+    .header{
+        display: grid;
+        color: black;
+        min-height: 15px;
+        text-align: center;
+        background: rgb(0,0,255);
+    background: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(181,101,255,1) 23%,  rgba(181,101,255,1) 77%, rgba(0,0,255,1) 100%);
+    }
+    .header h1:hover{
+        text-align:start;
+        transform: rotate(100px) ;
+    
+    }
+    .header nav{
+          display: grid;
+          justify-content: center
+    }
+}
+main{
+    .section{
+        display: block;
+    
+        padding: 10px;
+    }
+    .section h2{
+        display: grid;
+        justify-content: space-around;
+    }
+    .section-informacion{
+       margin-top: 50px;
+    }
+   
+    .div{
+        display: grid;
+        justify-items: center;
+    } 
+}
+
+    .footer {
+        display: grid;
+        color: #fff;
+       background-color: #111 ;
+       width: 100%;
+   }
+   .footer-informacion{
+    margin-top: 81px;
+}
+
+
