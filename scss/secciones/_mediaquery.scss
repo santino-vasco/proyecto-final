@@ -1,0 +1,43 @@
+@media screen and (max-width: 1024px ){
+    .fondo{
+        background-color: #b565ff;
+    }
+    .section{
+        padding: 15px ;
+    }
+    
+}
+@media screen and (max-width: 780px  ){
+.fondo{
+    background-color: darkcyan;
+}
+.section{
+    background-color:aqua ;
+    border: solid 10px aquamarine;
+    padding: 15px ;
+}
+.parrafo{
+    width: 100%;
+}
+
+}
+@media screen and (max-width: 480px ) {
+
+.header{
+    display: grid;
+    justify-content: end;
+}
+
+.fondo{
+    background-color:  #00ffff;
+}
+.section{
+    background-color: #0000ff;
+    border: solid 10px darkblue;
+    padding: 20px ;
+}
+.parrafo{
+    width:100%;
+    
+}
+}
