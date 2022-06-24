@@ -33,7 +33,10 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 0px 0px;
-  grid-template-areas: "header header" "section section" "div div" "footer footer"; }
+  grid-template-areas: "header header"
+ "section section"
+ "div div"
+ "footer footer"; }
 
 .header {
   grid-area: header; }
@@ -270,5 +273,3 @@ header {
   background-color: #111;
   width: 100%; }
 
-.footer-contacto {
-  margin-top: 400px; }

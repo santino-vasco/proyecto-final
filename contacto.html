@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Santino Vasco</title>
 </head>
-<body>
+<body class="fondo" >
     <div class="grilla" >
       <header class="header heade">
         <nav class="navbar navbar-expand-lg .bg-dark">
@@ -37,29 +37,39 @@
                     </a>
               </div>
     </header>
-    <main class="main-contacto"> 
-      <span class="border border-dark">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <input type="email" placeholder="Email">
-            </div>
-            <div class="col">
-              <input type="password" placeholder="Contraseña">
-            </div>
+    <main> 
+      <section class="d-flex justify-content-center m-5 p-10  " >
+        <div class="card col-sm-5  p-3 " >
+        <div class="mb-3 " >
+          <h4>CONTACTAME</h4>
+        </div class="mb-2" >
+          <form action=""></form>
+          <div class="mb-2" >
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" name="nombre" id="nombre " placeholder="gabriel" >
           </div>
-          <div class="row">
-            <div class="col">
-              1 of 3
-            </div>
-            <div class="col">
-              2 of 3
-            </div>
-            <div class="col">
-              3 of 3
-            </div>
+          <div class="mb-2" >
+            <label for="apellido">Apellido</label>
+            <input type="text" class="form-control" name="apellido" id="apellido" placeholder="perez" >
+          </div>
+          <div class="mb-2  " >
+            <label for="Correo">Correo</label>
+            <input type="text" class="form-control" name="Correo" id="correo" placeholder="gabrielperez@gmail.com" >
+          </div>
+          <div class="mb-2" >
+            <label for="sexo">sexo</label>
+            <input type="radio"  name="sexo" id="masculino" value="masculino" > Masculino
+            <input type="radio"  name="sexo" id="femenino" value="femenino" > Femenino
+          </div>
+          <div class="mb-2" >
+            <label for="razon">razon de contacto</label>
+            <textarea name="mensaje" id="mensaje" class="form-control"  cols="30" rows="10" placeholder="mensaje" ></textarea>
+          </div>
+          <div class="mb-2" >
+            <button class="btn btn-primary"> Enviar </button>
           </div>
         </div>
+      </section>
     </main>
     <footer class=" footer footer-contacto ">
           
