@@ -1,7 +1,4 @@
 
-.fondo{
-    background-color: aqua;
-}
 .grilla {
     display: grid;
     grid-template-columns: 1fr;
@@ -11,19 +8,16 @@
       "section section"
       "div div"
       "footer footer";
-  }
-  .header { grid-area: header; }
-  .section { grid-area: selection; }
-  .div { grid-area: div; }
-  .footer { grid-area: footer; }
-.header {
+.header  {
+    grid-area: header;
     display: grid;
     color: black;
     min-height: 15px;
     text-align: center;
     background: rgb(0,0,255);
     background: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(181,101,255,1) 23%,  rgba(181,101,255,1) 77%, rgba(0,0,255,1) 100%);
-    
+
+           
         &:hover{
             text-align:start;
             transform: rotate(100px) ;
@@ -38,6 +32,7 @@
 
 main{
     .section{
+        grid-area: selection;
         display: block;
         background-color: #b565ff ;
         border: solid 10px black;
@@ -49,6 +44,7 @@ main{
     }
     
     .div{
+        grid-area: div;
         display: grid;
         justify-items: center;
     }
@@ -63,6 +59,7 @@ main{
     border: solid 5px black;
 }
 .footer {
+    grid-area: footer;
         display: grid;
         color: #fff;
        background-color: #111 ;
@@ -71,4 +68,5 @@ main{
 }
 .footer-index{
        margin-top: 150px;
+}
 }
