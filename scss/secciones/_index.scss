@@ -1,4 +1,5 @@
-
+.fondo{
+    background-color: aqua;
 .grilla {
     display: grid;
     grid-template-columns: 1fr;
@@ -57,16 +58,17 @@ main{
     width: 400px;
     background-color: aqua;
     border: solid 5px black;
-}
-.footer {
-    grid-area: footer;
+    }   
+    .footer {
+        grid-area: footer;
         display: grid;
         color: #fff;
        background-color: #111 ;
        width: 100%;
        margin-top: 300px ;
-}
-.footer-index{
-       margin-top: 150px;
-}
+    }
+    .footer-index{
+        margin-top: 150px;
+        }
+    }
 }

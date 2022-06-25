@@ -1,4 +1,8 @@
-.header {
+.fondo{
+    background-color: aqua;
+    .header {
+
+
     display: grid;
     color: black;
     min-height: 15px;
@@ -39,4 +43,5 @@ main{
     }
 .footer-estudio{
    margin-top: 300px;
+}
 }
