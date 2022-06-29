@@ -26,9 +26,11 @@
   flex-direction: column;
   align-items: center; }
 
-.fondo {
-  background-color: aqua; }
-
+  body {
+    background-image :url(https://blog.hubspot.es/hubfs/como-hacer-una-pagina-web-en-html.jpg); 
+    background-repeat:no-repeat; 
+    background-size:cover; 
+    background-attachment: fixed; }
 .grilla {
   display: grid;
   grid-template-columns: 1fr;
@@ -95,7 +97,7 @@ main .div {
   width: 100%; }
 
 .footer-index {
-  margin-top: 100px; }
+  margin-top: 150px; }
 
 @media screen and (max-width: 1024px) {
   .fondo {

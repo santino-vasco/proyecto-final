@@ -3,7 +3,7 @@
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
   },
-  "name": "proyecto",
+  "name": "p",
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
@@ -12,7 +12,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
-    
   },
   "repository": {
     "type": "git",

@@ -1,14 +1,15 @@
-.fondo{
-    background-color: aqua;
+body {
+    background-image :url(https://blog.hubspot.es/hubfs/como-hacer-una-pagina-web-en-html.jpg); 
+    background-repeat:no-repeat; 
+    background-size:cover; 
+    background-attachment: fixed; 
     .header {
-
-
-    display: grid;
-    color: black;
-    min-height: 15px;
-    text-align: center;
-    background: rgb(0,0,255);
-    background: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(181,101,255,1) 23%,  rgba(181,101,255,1) 77%, rgba(0,0,255,1) 100%);
+        display: grid;
+        color: black;
+        min-height: 15px;
+        text-align: center;
+        background: rgb(0,0,255);
+        background: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(181,101,255,1) 23%,  rgba(181,101,255,1) 77%, rgba(0,0,255,1) 100%);
     
         &:hover{
             text-align:start;
@@ -18,30 +19,29 @@
         nav{
               display: grid;
               justify-content: center
+        }    
+    main{
+        .div{
+            display: grid;
+            justify-items: center;
         }
-    
     }
-main{
-    .div{
+    .imagen{
+        width: 25px;
+    }
+    .img{
+        width: 400px;
+        background-color: aqua;
+        border: solid 5px black;
+    }
+    .footer{    
         display: grid;
-        justify-items: center;
+        color: #f0f8ff;
+        background-color: #111 ;
+        width: 100%;
+        }
+    .footer-estudio{
+    margin-top: 300px;
     }
-}
-.imagen{
-    width: 25px;
-}
-.img{
-    width: 400px;
-    background-color: aqua;
-    border: solid 5px black;
-}
-.footer{
-    display: grid;
-    color: #f0f8ff;
-   background-color: #111 ;
-   width: 100%;
     }
-.footer-estudio{
-   margin-top: 300px;
-}
 }

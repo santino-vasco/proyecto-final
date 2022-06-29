@@ -1,5 +1,8 @@
-.fondo{
-    background-color: aqua;
+body {
+    background-image :url(https://blog.hubspot.es/hubfs/como-hacer-una-pagina-web-en-html.jpg); 
+    background-repeat:no-repeat; 
+    background-size:cover; 
+    background-attachment: fixed; 
 .header {
     display: grid;
     color: black;
