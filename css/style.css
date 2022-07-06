@@ -2,6 +2,48 @@
   margin: 0;
   padding: 0; }
 
+body {
+  background-image: url(https://blog.hubspot.es/hubfs/como-hacer-una-pagina-web-en-html.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  body .header {
+    display: grid;
+    color: black;
+    min-height: 15px;
+    text-align: center;
+    background: blue;
+    background: linear-gradient(90deg, blue 0%, #b565ff 23%, #b565ff 77%, blue 100%); }
+    body .header:hover {
+      text-align: start;
+      transform: rotate(100px); }
+    body .header nav {
+      display: grid;
+      justify-content: center; }
+  body .main-contacto div {
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    body .main-contacto div input {
+      margin: 10px;
+      border: solid 2px black; }
+    body .main-contacto div h3 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 20px;
+      font-size: 35px; }
+  body .footer {
+    display: grid;
+    color: #f0f8ff;
+    background-color: #111;
+    width: 100%; }
+  body .footer-contacto {
+    margin-top: 300px; }
+
 .block {
   display: block; }
 
@@ -22,82 +64,121 @@
 .flex ul {
   display: flex; }
 
-.flex section {
-  flex-direction: column;
-  align-items: center; }
+body {
+  background-image: url(https://blog.hubspot.es/hubfs/como-hacer-una-pagina-web-en-html.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  body .header {
+    display: grid;
+    color: black;
+    min-height: 15px;
+    text-align: center;
+    background: blue;
+    background: linear-gradient(90deg, blue 0%, #b565ff 23%, #b565ff 77%, blue 100%); }
+    body .header:hover {
+      text-align: start;
+      transform: rotate(100px); }
+    body .header nav {
+      display: grid;
+      justify-content: center; }
+    body .header main .div {
+      display: grid;
+      justify-items: center; }
+    body .header .footer {
+      display: grid;
+      color: #f0f8ff;
+      background-color: #111;
+      width: 100%; }
+    body .header .footer-estudio {
+      margin-top: 300px; }
 
-  body {
-    background-image :url(https://blog.hubspot.es/hubfs/como-hacer-una-pagina-web-en-html.jpg); 
-    background-repeat:no-repeat; 
-    background-size:cover; 
-    background-attachment: fixed; }
-.grilla {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0px 0px;
-  grid-template-areas: "header header"
- "section section"
- "div div"
- "footer footer"; }
-
-.header {
-  grid-area: header; }
-
-.section {
-  grid-area: selection; }
-
-.div {
-  grid-area: div; }
-
-.footer {
-  grid-area: footer; }
-
-header .header {
-  display: grid;
-  color: black;
-  min-height: 15px;
-  text-align: center;
-  background: blue;
-  background: linear-gradient(90deg, blue 0%, #b565ff 23%, #b565ff 77%, blue 100%); }
-
-header .header h1:hover {
-  text-align: start;
-  transform: rotate(100px); }
-
-header .header nav {
-  display: grid;
-  justify-content: center; }
-
-main .section {
-  display: block;
-  background-color: #b565ff;
-  border: solid 10px black;
-  padding: 10px; }
-
-main .section h2 {
-  display: grid;
-  justify-content: space-around; }
-
-main .div {
-  display: grid;
-  justify-items: center; }
-
-.imagen {
+img {
   width: 25px; }
 
-.img {
-  width: 400px;
-  background-color: aqua;
-  border: solid 5px black; }
+body {
+  background-image: url(https://blog.hubspot.es/hubfs/como-hacer-una-pagina-web-en-html.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  body .grilla {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "header header" "section section" "div div" "footer footer"; }
+    body .grilla .header {
+      grid-area: header;
+      display: grid;
+      color: black;
+      min-height: 15px;
+      text-align: center;
+      background: blue;
+      background: linear-gradient(90deg, blue 0%, #b565ff 23%, #b565ff 77%, blue 100%); }
+      body .grilla .header:hover {
+        text-align: start;
+        transform: rotate(100px); }
+      body .grilla .header nav {
+        display: grid;
+        justify-content: center; }
+    body .grilla main .section {
+      grid-area: selection;
+      display: block;
+      background-color: #b565ff;
+      border: solid 10px black;
+      padding: 10px; }
+      body .grilla main .section h2 {
+        display: grid;
+        justify-content: space-around; }
+    body .grilla main .div {
+      grid-area: div;
+      display: grid;
+      justify-items: center; }
+    body .grilla .footer {
+      grid-area: footer;
+      display: grid;
+      color: #fff;
+      background-color: #111;
+      width: 100%;
+      margin-top: 300px; }
+    body .grilla .footer-index {
+      margin-top: 150px; }
 
-.footer {
-  display: grid;
-  color: #fff;
-  background-color: #111;
-  width: 100%; }
-
-.footer-index {
-  margin-top: 150px; }
+body {
+  background-image: url(https://blog.hubspot.es/hubfs/como-hacer-una-pagina-web-en-html.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  body .header {
+    display: grid;
+    color: black;
+    min-height: 15px;
+    text-align: center;
+    background: blue;
+    background: linear-gradient(90deg, blue 0%, #b565ff 23%, #b565ff 77%, blue 100%); }
+    body .header:hover {
+      text-align: start;
+      transform: rotate(100px); }
+    body .header nav {
+      display: grid;
+      justify-content: center; }
+  body main .section {
+    display: block;
+    padding: 10px; }
+    body main .section h2 {
+      display: grid;
+      justify-content: space-around; }
+  body main .section-informacion {
+    margin-top: 50px; }
+  body main .div {
+    display: grid;
+    justify-items: center; }
+  body .footer {
+    display: grid;
+    color: #fff;
+    background-color: #111;
+    width: 100%; }
+  body .footer-informacion {
+    margin-top: 150px; }
 
 @media screen and (max-width: 1024px) {
   .fondo {
@@ -128,150 +209,34 @@ main .div {
   .parrafo {
     width: 100%; } }
 
-header .header {
-  display: grid;
-  color: black;
-  min-height: 15px;
-  text-align: center;
-  background: blue;
-  background: linear-gradient(90deg, blue 0%, #b565ff 23%, #b565ff 77%, blue 100%); }
-
-header .header h1:hover {
-  text-align: start;
-  transform: rotate(100px); }
-
-header .header nav {
-  display: grid;
-  justify-content: center; }
-
-main .section {
-  display: block;
-  padding: 10px; }
-
-main .section h2 {
-  display: grid;
-  justify-content: space-around; }
-
-main .section-informacion {
-  margin-top: 50px; }
-
-main .div {
-  display: grid;
-  justify-items: center; }
-
-.footer {
-  display: grid;
-  color: #fff;
-  background-color: #111;
-  width: 100%; }
-
-.footer-informacion {
-  margin-top: 150px; }
-
-header .header {
-  display: grid;
-  color: black;
-  min-height: 15px;
-  text-align: center;
-  background: blue;
-  background: linear-gradient(90deg, blue 0%, #b565ff 23%, #b565ff 77%, blue 100%); }
-
-header .header h1:hover {
-  text-align: start;
-  transform: rotate(100px); }
-
-header .header nav {
-  display: grid;
-  justify-content: centers; }
-
-main .section {
-  display: block;
-  padding: 10px; }
-
-main .section h2 {
-  display: grid;
-  justify-content: space-around; }
-
-.footer {
-  display: grid;
-  color: #fff;
-  background-color: black;
-  width: 100%; }
-
-.footer-mis-trabajos {
-  margin-top: 420px; }
-
-header {
-  display: grid;
-  color: black;
-  min-height: 15px;
-  text-align: center;
-  background: blue;
-  background: linear-gradient(90deg, blue 0%, #b565ff 23%, #b565ff 77%, blue 100%); }
-  header h1:hover {
-    text-align: start;
-    transform: rotate(100px); }
-  header nav {
+body {
+  background-image: url(https://blog.hubspot.es/hubfs/como-hacer-una-pagina-web-en-html.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  body .header {
     display: grid;
-    justify-content: center; }
-
-main .div {
-  display: grid;
-  justify-items: center; }
-
-.imagen {
-  width: 25px; }
-
-.img {
-  width: 400px;
-  background-color: aqua;
-  border: solid 5px black; }
-
-.footer {
-  display: grid;
-  color: #f0f8ff;
-  background-color: #111;
-  width: 100%; }
-
-.footer-estudio {
-  margin-top: 300px; }
-
-header {
-  display: grid;
-  color: black;
-  min-height: 15px;
-  text-align: center;
-  background: blue;
-  background: linear-gradient(90deg, blue 0%, #b565ff 23%, #b565ff 77%, blue 100%); }
-  header h1:hover {
-    text-align: start;
-    transform: rotate(100px); }
-  header nav {
+    color: black;
+    min-height: 15px;
+    text-align: center;
+    background: blue;
+    background: linear-gradient(90deg, blue 0%, #b565ff 23%, #b565ff 77%, blue 100%); }
+    body .header:hover {
+      text-align: start;
+      transform: rotate(100px); }
+    body .header nav {
+      display: grid;
+      justify-content: center; }
+  body main .section {
+    display: block;
+    padding: 10px; }
+    body main .section h2 {
+      display: grid;
+      justify-content: space-around; }
+  body .footer {
     display: grid;
-    justify-content: center; }
-
-.main-contacto div {
-  display: flex;
-  margin: 15px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.main-contacto div input {
-  margin: 10px;
-  border: solid 2px black; }
-
-.main-contacto h3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 20px;
-  font-size: 35px; }
-
-.footer {
-  display: grid;
-  color: #f0f8ff;
-  background-color: #111;
-  width: 100%; }
-
+    color: #fff;
+    background-color: black;
+    width: 100%; }
+  body .footer-mis-trabajos {
+    margin-top: 420px; }

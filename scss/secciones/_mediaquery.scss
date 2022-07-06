@@ -1,16 +1,12 @@
 @media screen and (max-width: 1024px ){
-    .fondo{
-        background-color: #b565ff;
-    }
     .section{
         padding: 15px ;
+        background-color: #b565ff ;
+        border: solid 10px black;
     }
     
 }
 @media screen and (max-width: 780px  ){
-.fondo{
-    background-color: darkcyan;
-}
 .section{
     background-color:aqua ;
     border: solid 10px aquamarine;
@@ -25,10 +21,6 @@
 .header{
     display: grid;
     justify-content: end;
-}
-
-.fondo{
-    background-color:  #00ffff;
 }
 .section{
     background-color: #0000ff;

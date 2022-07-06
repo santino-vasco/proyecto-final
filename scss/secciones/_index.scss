@@ -46,7 +46,6 @@ main{
         display: grid;
         justify-content: space-around;
     }
-
     }
     
     .div{
@@ -56,14 +55,6 @@ main{
     }
 
 }
-.imagen{
-    width: 25px;
-}
-.img{
-    width: 400px;
-    background-color: aqua;
-    border: solid 5px black;
-    }   
     .footer {
         grid-area: footer;
         display: grid;
