@@ -18,17 +18,20 @@
 }
 @media screen and (max-width: 480px ) {
 
-.header{
-    display: grid;
-    justify-content: end;
-}
-.section{
-    background-color: #0000ff;
-    border: solid 10px darkblue;
-    padding: 20px ;
-}
-.parrafo{
-    width:100%;
-    
-}
+    .header{
+        display: grid;
+        justify-content: end;
+    }
+    h1{
+        width:100%;
+    }
+
+    .section{
+        background-color: #0000ff;
+        border: solid 10px darkblue;
+        padding: 20px ;
+    }
+    .parrafo{
+        width:100%;
+    }
 }

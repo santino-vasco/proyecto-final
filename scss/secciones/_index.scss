@@ -3,16 +3,6 @@ body {
     background-repeat:no-repeat; 
     background-size:cover; 
     background-attachment: fixed; 
-
-.grilla {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "header header"
-      "section section"
-      "div div"
-      "footer footer";
 .header  {
     grid-area: header;
     display: grid;
@@ -42,19 +32,17 @@ main{
         background-color: #b565ff ;
         border: solid 10px black;
      padding: 10px;
-     h2{
+     h3{
         display: grid;
         justify-content: space-around;
     }
     }
-    
     .div{
         grid-area: div;
         display: grid;
         justify-items: center;
+    } 
     }
-
-}
     .footer {
         grid-area: footer;
         display: grid;
@@ -67,4 +55,3 @@ main{
         margin-top: 150px;
         }
     }
-}

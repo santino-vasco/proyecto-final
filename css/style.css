@@ -54,15 +54,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center; }
-
-.flex li {
-  display: flex;
-  padding: 2px;
-  flex-direction: row;
-  justify-content: flex-end; }
-
-.flex ul {
-  display: flex; }
+  .flex li {
+    display: flex;
+    padding: 2px;
+    flex-direction: row;
+    justify-content: flex-end; }
+  .flex ul {
+    display: flex; }
 
 body {
   background-image: url(https://blog.hubspot.es/hubfs/como-hacer-una-pagina-web-en-html.jpg);
@@ -101,47 +99,42 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
-  body .grilla {
+  body .header {
+    grid-area: header;
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 0px 0px;
-    grid-template-areas: "header header" "section section" "div div" "footer footer"; }
-    body .grilla .header {
-      grid-area: header;
+    color: black;
+    min-height: 15px;
+    text-align: center;
+    background: blue;
+    background: linear-gradient(90deg, blue 0%, #b565ff 23%, #b565ff 77%, blue 100%); }
+    body .header:hover {
+      text-align: start;
+      transform: rotate(100px); }
+    body .header nav {
       display: grid;
-      color: black;
-      min-height: 15px;
-      text-align: center;
-      background: blue;
-      background: linear-gradient(90deg, blue 0%, #b565ff 23%, #b565ff 77%, blue 100%); }
-      body .grilla .header:hover {
-        text-align: start;
-        transform: rotate(100px); }
-      body .grilla .header nav {
-        display: grid;
-        justify-content: center; }
-    body .grilla main .section {
-      grid-area: selection;
-      display: block;
-      background-color: #b565ff;
-      border: solid 10px black;
-      padding: 10px; }
-      body .grilla main .section h2 {
-        display: grid;
-        justify-content: space-around; }
-    body .grilla main .div {
-      grid-area: div;
+      justify-content: center; }
+  body main .section {
+    grid-area: selection;
+    display: block;
+    background-color: #b565ff;
+    border: solid 10px black;
+    padding: 10px; }
+    body main .section h3 {
       display: grid;
-      justify-items: center; }
-    body .grilla .footer {
-      grid-area: footer;
-      display: grid;
-      color: #fff;
-      background-color: #111;
-      width: 100%;
-      margin-top: 300px; }
-    body .grilla .footer-index {
-      margin-top: 150px; }
+      justify-content: space-around; }
+  body main .div {
+    grid-area: div;
+    display: grid;
+    justify-items: center; }
+  body .footer {
+    grid-area: footer;
+    display: grid;
+    color: #fff;
+    background-color: #111;
+    width: 100%;
+    margin-top: 300px; }
+  body .footer-index {
+    margin-top: 150px; }
 
 body {
   background-image: url(https://blog.hubspot.es/hubfs/como-hacer-una-pagina-web-en-html.jpg);
@@ -162,9 +155,12 @@ body {
       display: grid;
       justify-content: center; }
   body main .section {
+    grid-area: selection;
     display: block;
+    background-color: #b565ff;
+    border: solid 10px black;
     padding: 10px; }
-    body main .section h2 {
+    body main .section h1 {
       display: grid;
       justify-content: space-around; }
   body main .section-informacion {
@@ -178,17 +174,15 @@ body {
     background-color: #111;
     width: 100%; }
   body .footer-informacion {
-    margin-top: 150px; }
+    margin-top: 300px; }
 
 @media screen and (max-width: 1024px) {
-  .fondo {
-    background-color: #b565ff; }
   .section {
-    padding: 15px; } }
+    padding: 15px;
+    background-color: #b565ff;
+    border: solid 10px black; } }
 
 @media screen and (max-width: 780px) {
-  .fondo {
-    background-color: darkcyan; }
   .section {
     background-color: aqua;
     border: solid 10px aquamarine;
@@ -200,8 +194,8 @@ body {
   .header {
     display: grid;
     justify-content: end; }
-  .fondo {
-    background-color: #00ffff; }
+  h1 {
+    width: 100%; }
   .section {
     background-color: #0000ff;
     border: solid 10px darkblue;
