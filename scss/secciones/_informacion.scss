@@ -1,15 +1,14 @@
 body {
-    background-image :url(https://blog.hubspot.es/hubfs/como-hacer-una-pagina-web-en-html.jpg); 
+    background-image :url(https://www.tecnologia-informatica.com/wp-content/uploads/2022/02/word-image-46.jpeg); 
     background-repeat:no-repeat; 
     background-size:cover; 
     background-attachment: fixed; 
 .header {
     display: grid;
-    color: black;
+    color: white;
     min-height: 15px;
     text-align: center;
-    background: rgb(0,0,255);
-    background: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(181,101,255,1) 23%,  rgba(181,101,255,1) 77%, rgba(0,0,255,1) 100%);
+    background: #111;
     
         &:hover{
             text-align:start;
@@ -26,8 +25,7 @@ main{
     .section{
         grid-area: selection;
         display: block;
-        background-color: #b565ff ;
-        border: solid 10px black;
+        color: white;
         padding: 10px;
      h1{
         display: grid;

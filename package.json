@@ -4,7 +4,6 @@
     "nodemon": "^2.0.16"
   },
   "name": "p",
-  "description": "",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
@@ -22,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/santino-vasco/proyecto-final/issues"
   },
-  "homepage": "https://github.com/santino-vasco/proyecto-final#readme"
+  "homepage": "https://github.com/santino-vasco/proyecto-final#readme",
+  "description": ""
 }
